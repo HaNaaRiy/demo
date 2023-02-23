@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width:700px;
+            margin:auto;
+            background-image: linear-gradient(to bottom,pink,orange);
+            padding-top: 30px;
+            padding-bottom: 30px;
+            /* padding-left: 30px; */
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+        h2{text-align: center;}
+        body{}
+    </style>
+</head>
+<body>
+    <h2>Subscibe to our newsletter</h2>
+    <form action="/action_page.php" method="post" target="_self">
+        <label for="nam">name</label>
+        <input type="text" name="" id="nam"><br><br>
+        <label for="ag">age</label>
+        <input type="number" name="" id="ag" placeholder="enter your age"><br><br>
+        <label for="upl">upload file</label><br><br>
+        <input type="file" name="" id="upl"><br><br>
+        <!-- <p>Select gender</p> -->
+        <fieldset style="width:400px; margin: auto;">
+            <legend>gender</legend>
+            <input type="radio" name="gen" id=""><label for="">Male</label>
+            <input type="radio" name="gen" id=""><label for="">Female</label>
+        </fieldset>
+        <!-- <p>select course</p> -->
+        <fieldset style="width:400px; margin: auto;">
+<legend>Courses</legend>
+            <input type="checkbox" name="" id=""><label for="">HTML</label>
+            <input type="checkbox" name="" id=""><label for="">CSS</label>
+            <input type="checkbox" name="" id=""><label for="">Javascript</label>
+        </fieldset><br>
+        <input type="submit"> <input type="reset">
+        </form>
+</body>
+</html>
